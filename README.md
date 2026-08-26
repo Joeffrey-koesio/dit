@@ -1,22 +1,19 @@
-# DIT Analytics v3
+# DIT Analytics v4
 
-## Nouveautés
-- Multi-sélection des UO via `DIT Domaine lib`.
-- Multi-sélection des collaborateurs.
-- Filtre de période de début et de fin.
-- Période analysée affichée dans le tableau de bord et dans l'export Excel.
+Deux dashboards indépendants avec les mêmes filtres :
 
-## Local
+- **Tickets entrants** : une ligne logique par `DIT no interne`.
+- **Interventions** : une ligne logique par `IT N°`.
+
+Les délais et `IT Durée` du dashboard Interventions utilisent une seule valeur par IT. Les valeurs répétées ne sont jamais additionnées. La charge technicien est la somme des durées des IT uniques.
+
+## Commandes
 ```bash
 npm install
 npm run dev
-```
-
-## Compilation
-```bash
 npm run build
 npm run preview
 ```
 
 ## GitHub Pages
-Dans `Settings > Pages`, sélectionner `GitHub Actions`. Le workflow inclus publie automatiquement la branche `main`.
+Sélectionner `Settings > Pages > GitHub Actions`, puis envoyer le projet sur `main`.
