@@ -1,4 +1,4 @@
-# DIT Analytics v4
+# DIT Analytics v5.2
 
 Deux dashboards indépendants avec les mêmes filtres :
 
