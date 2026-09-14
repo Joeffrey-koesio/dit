@@ -1,21 +1,16 @@
-🚀 DIT Analytics v6.3
+# DIT Analytics V6.3
 
-Pilotage des activités IT & Télécom à partir des exports Artis.
+- Aucun tableau DIT permanent.
+- Calculs uniquement après « Appliquer les filtres ».
+- Gestion de groupes de techniciens sauvegardés dans le navigateur.
+- KPI prise en charge, réponse, résolution et temps équipe.
+- Graphiques activité, type de travail, UO et charge technicien.
+- Détail à la demande après clic sur un technicien.
+- Détail intervention limité à IT N°, IT UO nom, DIT Raison sociale, DIT Détail, IT Commentaire, DIT Date/Heure et Crit modifié le.
 
- ✅ Gestion des groupes (retour)  
- ✅ Sauvegarde locale des groupes  
- ✅ Sélection rapide d'un groupe  
- ✅ KPI par groupe  
- ✅ Raccourcis de période  
- ✅ DIT détaillées cliquables  
- ✅ DIT repliées par défaut  
- ✅ IT détaillées cliquables  
- ✅ Fiche intervention complète  
- ✅ Export Excel enrichi  
- ✅ Affichage moderne 
- ✅ Filtrage automatique au clic technicien  
- ✅ Correction définitive du commentaire technique (IT Commentaire)  
- ✅ Conservation des groupes  
- ✅ Conservation des KPI et graphiques  
- ✅ Conservation des exports Excel  
- ✅ Proposition de dates automatiques  
+```bash
+npm install
+npm run dev
+npm run build
+npm run preview
+```
